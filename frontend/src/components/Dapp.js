@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { ethers } from 'ethers';
+import { utils } from 'ethers';
 
 import CheckVoterAddress from './CheckVoterAddress';
 import Proposals from './Proposals';
@@ -69,7 +70,6 @@ export const Dapp = () => {
 	const checkAddressVoter = async () => {
 		try {
 			const voterData = await token.voters(`${voterAddressToCheck}`);
-			setVoterStatus(voterData);
 		} catch (err) {
 			console.log(err);
 			setVoterStatus('An error has occured');

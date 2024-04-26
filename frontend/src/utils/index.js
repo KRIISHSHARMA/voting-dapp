@@ -1,4 +1,5 @@
 import { ethers } from 'ethers';
+import { utils } from 'ethers';
 
 export const parseBytes = (bytesProposal) => {
 	return ethers.utils.parseBytes32String(bytesProposal);
