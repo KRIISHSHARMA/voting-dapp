@@ -35,14 +35,16 @@ npx hardhat node
 ```
 - **Dont close this session**
 
-![image](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/9c530a3b-8e4b-4082-9a9a-a0c6eefd3f38)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/ec7cfa34-398b-49e8-b6ec-d995dc8182b8)
+
 
 - Deploy contract in a new terminal
 ``` sh
 npx hardhat run script/deploy.js --network localhost
 ```
 
-![image](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/1008e690-5c70-4d74-8401-4f8d5dea9849)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/5bfa72c6-66cd-4fcb-bedf-32fd35f2687f)
+
 
 - Running Frontend (`cd frontend`)
 
@@ -53,15 +55,16 @@ npx hardhat run script/deploy.js --network localhost
 ``` sh
 npx hardhat node
 ```
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/371d619c-64ca-489f-b63b-9825da2c782d)
 
-![Screenshot from 2024-04-20 19-00-24](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/f283514b-95f5-499a-8543-f87a0dd4bd90)
 
 
 - Running the above command, you will get the RPC endpoint as well as a list of locally generated accounts. We will need the endpoint as well as the private keys for configuring Metamask.
 
 ## Add Local Network to Metamask
 
-![Screenshot from 2024-04-20 19-02-47](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/67798218-c5fa-4fa3-a30a-8037e3d0fe54)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/accb208f-6994-4e7f-8996-e54697577c0a)
+
 
 
 - Select the “Add Network” button and you will be greeted with a form requesting for the relevant network details. In order to connect to our local network, we will be using the following:
@@ -74,15 +77,16 @@ npx hardhat node
 
 - In order to add these accounts to Metamask, we will need to add the private keys which were returned when we ran the npx hardhat node command.
 
-![Screenshot from 2024-04-20 19-05-40](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/ffaaa0ce-7330-4bc0-a5e5-15a01984d780)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/ad6db297-50f0-4255-a30c-a07b583ba81e)
 
 
 - Select the “Import Account” option and Metamask will prompt you for the private key string. Paste the private keys from earlier, it should look something like this:
 
 ` 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80`
 
-![Screenshot from 2024-04-20 19-07-16](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/d482109d-3923-410a-ad0b-25237044575c)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/2dc2ae57-70c5-4a92-999e-5dab6ceb7bb4)
 
-![Screenshot from 2024-04-20 19-07-46](https://github.com/KRIISHSHARMA/voting-Dapp/assets/86760658/73d3d655-f917-4ea3-8f03-cf4abc703bdb)
+![image](https://github.com/KRIISHSHARMA/voting-dapp/assets/86760658/d44f7738-08e4-4655-a16e-4758d1f78d3d)
+
 
 
