@@ -1,6 +1,10 @@
 # How to Clone This Repo 🤔
 ``` sh
 git clone https://github.com/KRIISHSHARMA/voting-Dapp.git
+docker pull kriishsharma/vote-system 
+```
+``` sh
+docker run -it -p 80:8545 <docker inage id>
 ```
 ``` sh
 cd voting-Dapp
